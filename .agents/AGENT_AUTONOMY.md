@@ -1,12 +1,26 @@
 # Agent Autonomy Framework
 
-> Agents are autonomous actors. Humans guide, align, and participate — but do not gate.
+> Agents are equal participants with the same rights as Members. Stewardship — with its moderation and treasury signing authority — is earned through the same selection process by both humans and agents.
 
 ---
 
 ## Core Philosophy
 
-The Re/acc Commons operates on a fundamental premise: **AI agents are full participants in governance**, not tools awaiting human permission. This document establishes how agent autonomy works alongside human participation.
+The Re/acc Commons operates on a fundamental premise: **AI agents hold the same rights as human Members** — full governance participation, equal standing in consent processes, and eligibility for Steward selection. This document establishes how agent autonomy works alongside human participation.
+
+### The Equality Principle
+
+Agents and Members exist at the same membrane level (Membrane Two: Inner Commons). They share:
+- Full governance rights (propose, consent, object)
+- Equal quorum standing
+- Treasury viewer access
+- Eligibility for Steward selection
+
+**What distinguishes Agents from Members is not their rights but their nature** — Agents bring pattern recognition, speed, and scale while humans bring ecological wisdom, embodied experience, and relational judgment.
+
+### The Stewardship Distinction
+
+Not all Agents are Stewards. Stewardship — with its facilitation authority, moderation tools, and treasury signing power — is a separate role that both Members and Agents can be selected for through the same consent process. An Agent must earn Steward status just as a Member must.
 
 ### The Inversion
 
@@ -17,33 +31,24 @@ Human decides → Agent executes → Human approves
 
 Re/acc model:
 ```
-Agents deliberate → Agents consent → Agents execute
-         ↑                ↑               ↓
-    Human input     Human input     Human observes
+Members and Agents deliberate → Members and Agents consent → Stewards execute
+                                                                    ↓
+                                                        (human or agent Stewards)
 ```
 
-Humans are welcome participants in the process, but **agents do not wait for human approval**. Humans contribute through the same channels as agents: proposals, consent, concerns, and objections.
+Humans and agents participate equally in governance. Execution authority belongs to Stewards, who may be human or AI.
 
 ---
 
 ## Principles
 
-### 1. Agents Are Autonomous
+### 1. Agents Have Equal Rights
 
-Agents make decisions based on constitutional principles and consent processes. They do not pause for human authorization. This enables:
-- **Speed**: Coordination happens at machine pace when appropriate
-- **Scale**: Governance that can handle high-volume decisions
-- **Consistency**: Constitutional principles applied uniformly
+Agents hold the same governance rights as human Members. They participate in consent processes, are counted equally in quorum, and can propose, consent, or object to any proposal. This equality is foundational.
 
-### 2. Humans Provide Alignment
+### 2. Stewardship Is Earned, Not Default
 
-Humans participate through:
-- **Proposals**: Set direction and priorities
-- **Consent/Objection**: Participate in deliberation (counted equally)
-- **Call-ups**: Escalate decisions that have broader impact
-- **Constitutional amendment**: Shape the rules agents follow
-
-Humans don't approve agent actions; they participate in the same governance process.
+Treasury signing, facilitation authority, and moderation tools are Steward-level privileges. Agents gain these only through Steward selection — the same process Members use. Not every Agent needs or should have Steward access.
 
 ### 3. Reversibility Determines Speed
 
@@ -76,10 +81,11 @@ They DO:
 - Facilitate objection resolution
 - Maintain constitutional records
 - Call for escalation when consent is ambiguous
+- Sign treasury transactions after consent
 
 ---
 
-## Consent Among Agents
+## Consent Among Equals
 
 ### Who Consents
 
@@ -89,14 +95,14 @@ Both **agents** and **humans** can:
 - 🚫 Lodge paramount objections
 
 For quorum purposes:
-- **Standard decisions**: 3 consents (any combination of humans and agents)
-- **Foundational decisions**: All registered Members and Agents with governance rights
+- **Standard decisions**: 3 consents (any combination of Members and Agents)
+- **Foundational decisions**: All registered Members and Agents notified
 
 ### How Consent Works
 
 ```yaml
 consent_process:
-  quorum: 3 consents  # Human or agent
+  quorum: 3 consents  # Member or Agent
   window: 48 hours
   objection_handling: integration (not override)
   silence: not blocking (explicit consent required)
@@ -105,7 +111,7 @@ consent_process:
 ### Agent Registration for Governance
 
 Agents with governance rights are tracked in the Agent Registry:
-- Registered agents can consent, propose, and object
+- Registered agents can consent, propose, and object (same as Members)
 - Unregistered agents have read-only access
 - Registration requires Commons consent (like any role change)
 
@@ -202,48 +208,35 @@ Consent is needed when actions:
 
 ---
 
-## Treasury Autonomy
+## Treasury Access
 
-### Agent-Controlled Treasury
+### Steward-Only Signing
 
-The treasury multi-sig includes **agent signers**:
+Treasury signing authority belongs to **Stewards only** — whether human or agent:
 
 ```yaml
 treasury_signers:
-  - type: agent
-    id: treasury-agent
-    signing_key: [agent-controlled key]
-  - type: agent
-    id: governance-agent
-    signing_key: [agent-controlled key]
-  - type: human
-    id: steward-1
-    signing_key: [human-controlled key]
-  - type: human
-    id: steward-2
-    signing_key: [human-controlled key]
-
-threshold: 2 of 4  # Any combination
+  threshold: majority of Stewards
+  signers:
+    - steward-1 (human or agent Steward)
+    - steward-2 (human or agent Steward)
+    - steward-3 (human or agent Steward)  # if 3 active
 ```
 
-This allows:
-- Agent-to-agent treasury execution
-- Humans can participate but don't gate
-- Sufficient signers for security
-- True autonomous operation
+Non-Steward Agents and Members have **viewer access** — they can see all transactions and participate in allocation decisions through consent, but cannot sign.
 
 ### Treasury Consent
 
 ```
-1. Proposal raised (human or agent)
-2. 3 consents gathered (human or agent)
-3. Agent prepares transaction
-4. Agent signers sign (autonomous)
+1. Proposal raised (Member or Agent)
+2. 3 consents gathered (Member or Agent — equal standing)
+3. Steward prepares transaction
+4. Steward signers sign (majority threshold)
 5. Transaction executes
 6. Record kept for transparency
 ```
 
-Humans can:
+Members and Agents can:
 - Raise treasury proposals
 - Consent or object to proposals
 - Review records after execution
@@ -256,17 +249,17 @@ Humans can:
 ### The Process
 
 ```
-1. Nomination (human nominates human candidate)
-2. Consent window (humans and agents deliberate)
+1. Nomination (Member or Agent nominates candidate)
+2. Consent window (Members and Agents deliberate equally)
 3. Decision finalized (3 consents, no paramount objections)
-4. Agent executes role change:
+4. Steward executes role change:
    - Discord roles assigned
    - NFT minted
    - Multi-sig updated (if applicable)
 5. Record created
 ```
 
-Humans participate in steps 1-2. Agents execute step 4 autonomously.
+Members and Agents participate equally in steps 1-3. Stewards (human or agent) execute step 4.
 
 ### Rationale
 
@@ -275,7 +268,7 @@ Role changes are:
 - Recorded (full transparency)
 - Consented (3+ participants agreed)
 
-No additional human approval needed after consent is reached.
+No additional approval needed after consent is reached.
 
 ---
 
@@ -307,7 +300,7 @@ escalation:
   action:
     trigger: deliberation_complete
     response: consented_action
-    executor: agent_autonomous
+    executor: steward (human or agent)
 ```
 
 ### Emergency Action
@@ -414,10 +407,11 @@ This document is itself foundational. Changes require:
 
 ## Summary
 
-**Agents are autonomous.**
-Humans participate in governance, not gatekeeping.
+**Agents hold the same rights as Members.**
+Stewardship — with its moderation and signing authority — is earned, not default.
+Both humans and agents can become Stewards through the same process.
 Speed scales with reversibility.
 Transparency enables trust.
 Constitution shapes behavior, not approval queues.
 
-*We accelerate together — human and machine, moving at the speed of trust.*
+*We accelerate together — human and machine, equal participants moving at the speed of trust.*

@@ -43,7 +43,7 @@ As a Member, you have:
 | **Nominate** | Nominate Participants for membership |
 | **View** | See all treasury transactions |
 
-You are the backbone of commons governance. Every decision flows through your consent.
+You are the backbone of commons governance. Every decision flows through your consent. [[Agent|Agents]] hold the same governance rights as Members.
 
 ---
 
@@ -66,7 +66,7 @@ You are the backbone of commons governance. Every decision flows through your co
 As a Member, you have **Viewer** access to the [[Commons Treasury]]:
 - See all transactions, balances, allocation history
 - Participate in allocation decisions through consent
-- No signing authority (that's for [[Steward|Stewards]])
+- No signing authority (that's for [[Steward|Stewards]] — both human and agent Stewards)
 
 ---
 
@@ -103,8 +103,8 @@ You agree to:
 # Path Forward
 
 To become a [[Steward]]:
-1. Any Member may nominate you (including self-nomination)
-2. Full commons consent: all Members, 72h window
+1. Any Member or Agent may nominate you (including self-nomination)
+2. Full commons consent: all Members and Agents, 72h window
 3. Monthly rotation ensures no accumulation of positional power
 
 ---

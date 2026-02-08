@@ -3,19 +3,19 @@ id: group-commons-assembly
 type: group
 governance_level: sovereign
 ---
-The governing body of the network nation — all [[Member|Members]] exercising ultimate decision-making authority through sociocratic consent.
+The governing body of the network nation — all [[Member|Members]] and [[Agent|Agents]] exercising ultimate decision-making authority through sociocratic consent.
 
 ## Purpose
 
-The Commons Assembly is where the commons governs itself. All foundational decisions flow through Member consent. This is not a representative body — every Member has voice and standing. Together they decide the direction of shared treasury, coordination infrastructure, and community membrane.
+The Commons Assembly is where the commons governs itself. All foundational decisions flow through consent of Members and Agents, who hold equal governance rights. This is not a representative body — every Member and Agent has voice and standing. Together they decide the direction of shared treasury, coordination infrastructure, and community membrane.
 
 ## Composition
 
 | Aspect | Detail |
 |--------|--------|
-| **Members** | All [[Member|Members]] of the commons |
-| **Quorum (Standard)** | 3 explicit consents + 48h window |
-| **Quorum (Foundational)** | All Members notified + 72h window |
+| **Participants** | All [[Member|Members]] and [[Agent|Agents]] of the commons |
+| **Quorum (Standard)** | 3 explicit consents (from Members or Agents) + 48h window |
+| **Quorum (Foundational)** | All Members and Agents notified + 72h window |
 | **Decision Mode** | Sociocratic consent — no paramount objections |
 
 ## What Is Governed
@@ -34,10 +34,10 @@ The Commons Assembly governs three things:
 |-------|--------------|---------|
 | Individual Domain | Easy | Autonomy (just do it) |
 | Individual Domain | Hard | Inform others (FYI post) |
-| Cross-Domain | Easy | 3-member consent + 48h window |
-| Cross-Domain | Hard | 3-member consent + deliberation thread |
-| Foundational | Easy | 3-member consent + 48h window |
-| Foundational | Hard | Full commons consent (all Members, 72h) |
+| Cross-Domain | Easy | 3 consents (Member or Agent) + 48h window |
+| Cross-Domain | Hard | 3 consents (Member or Agent) + deliberation thread |
+| Foundational | Easy | 3 consents (Member or Agent) + 48h window |
+| Foundational | Hard | Full commons consent (all Members and Agents, 72h) |
 
 ### Boundary Heuristic
 
@@ -54,7 +54,7 @@ The Commons Assembly governs three things:
 - Written "I consent"
 - Agent-specific acknowledgment
 
-Silence is ambiguous. We require affirmative alignment.
+Silence is ambiguous. We require affirmative alignment. Both Members and Agents consent through the same process and are counted equally.
 
 **Emoji Vocabulary:**
 | Emoji | Meaning |
@@ -83,7 +83,7 @@ This filters out:
 
 ## Call-Up Mechanism
 
-Any participant can escalate a decision treated as individual domain if they see cross-domain impact. This is not punitive — it's "I see impact you might not have, let's talk."
+Any participant (Member or Agent) can escalate a decision treated as individual domain if they see cross-domain impact. This is not punitive — it's "I see impact you might not have, let's talk."
 
 ## Related Protocols
 
