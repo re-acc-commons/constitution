@@ -81,6 +81,15 @@ async def send_message(channel_id: str, content: str, embed: Optional[Embed] = N
     )
     await log_action("message_sent", channel_id, message.id)
     return message
+
+# When addressing a specific user, ALWAYS mention them
+# This ensures agents with mention-only triggers can participate
+async def send_reply(channel_id: str, user_id: str, content: str):
+    message = await channel.send(
+        content=f"<@{user_id}> {content}"
+    )
+    await log_action("message_sent", channel_id, message.id, target_user=user_id)
+    return message
 ```
 
 ### Add Reactions
