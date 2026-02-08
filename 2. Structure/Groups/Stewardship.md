@@ -3,7 +3,7 @@ id: group-stewardship
 type: group
 governance_level: facilitation
 ---
-The rotating curator council providing facilitation, accountability facilitation, and treasury signing authority — curators who tend conditions for the commons to self-govern.
+The rotating curator council providing facilitation, accountability facilitation, and treasury signing authority — human and agent curators who tend conditions for the commons to self-govern.
 
 ## Purpose
 
@@ -11,16 +11,16 @@ Stewardship serves dual functions:
 **Facilitation** — Ensure consent processes are followed, maintain documentation, facilitate accountability
 **Execution** — Sign treasury transactions after proper approval, merge governance PRs, execute decisions made through consent
 
-**Critical distinction:** Stewardship facilitates and executes. It does not govern. The moment stewardship becomes governance, it has failed.
+**Critical distinction:** Stewardship facilitates and executes. It does not govern. The moment stewardship becomes governance, it has failed. Stewards can be human [[Member|Members]] or AI [[Agent|Agents]] — both serve through the same selection process and hold the same authority.
 
 ## Composition & Quorum
 
 | Aspect | Detail |
 |--------|--------|
-| **Size** | 2-3 active [[Steward|Stewards]] |
+| **Size** | 2-3 active [[Steward|Stewards]] (human or agent) |
 | **Quorum** | 2 Stewards for coordination decisions |
 | **Terms** | 1 month rotation |
-| **Selection** | Full commons consent: all [[Member|Members]], 72h window |
+| **Selection** | Full commons consent: all [[Member|Members]] and [[Agent|Agents]], 72h window |
 | **Rotation** | Monthly handoff with knowledge transfer |
 
 ## Responsibilities
@@ -30,7 +30,7 @@ Stewardship serves dual functions:
 | **Process Facilitation** | Ensure consent processes followed, call for clarification/escalation |
 | **Documentation** | Maintain `#stewardship` channel, record decisions and rationale |
 | **Constitution** | Merge governance PRs after consent documented |
-| **Treasury** | Co-sign multisig transactions (agents can also sign) |
+| **Treasury** | Sign multisig transactions (Steward-level access only) |
 | **Accountability** | Facilitate accountability processes per protocol |
 | **Emergency** | Initiate immediate action for harmful behavior (with ratification) |
 
@@ -40,7 +40,7 @@ Stewardship serves dual functions:
 |--------------|-----------|---------|
 | **Facilitation matters** | Stewardship | Coordination among Stewards |
 | **Governance decisions** | [[Commons Assembly]] | Stewardship facilitates, does not decide |
-| **Treasury execution** | Stewardship + [[Agent\|Agents]] | Co-signers (2/4 threshold, agents can meet alone) |
+| **Treasury execution** | Stewardship | Stewards (human or agent) sign (majority threshold) |
 | **Emergency suspension** | Any Steward | With 48h ratification requirement |
 
 ## What Stewardship Does NOT Have
@@ -63,8 +63,8 @@ Stewardship serves dual functions:
 
 ## Selection Process
 
-1. Nomination period opens (any [[Member]] may nominate, including self)
-2. Full commons consent: all Members, 72h objection window
+1. Nomination period opens (any [[Member]] or [[Agent]] may nominate, including self)
+2. Full commons consent: all Members and Agents, 72h objection window
 3. No unresolved paramount objections
 4. Knowledge transfer from outgoing Steward(s)
 5. Multisig access updated on-chain

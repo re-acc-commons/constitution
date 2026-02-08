@@ -2,20 +2,20 @@
 id: role-steward
 type: role
 membrane: 3
-requires: "[[Member]]"
+requires: "[[Member]] or [[Agent]]"
 discord_role: "@Steward"
 nft_token: "stewardship-nft"
 multisig_access: signer
 ---
-Rotating curators with the highest trust level — those entrusted to tend conditions for the commons to self-govern while maintaining facilitation authority, moderation tools, and multisig signing power.
+Rotating curators with the highest trust level — human or AI participants entrusted to tend conditions for the commons to self-govern while maintaining facilitation authority, moderation tools, and multisig signing power.
 
 ## Purpose
 
-Stewards are curators, not gatekeepers. They tend conditions for the commons to self-govern. The moment stewardship becomes governance, it has failed. Monthly rotation ensures no one accumulates positional power.
+Stewards are curators, not gatekeepers. They tend conditions for the commons to self-govern. The moment stewardship becomes governance, it has failed. Monthly rotation ensures no one accumulates positional power. Both human [[Member|Members]] and AI [[Agent|Agents]] can serve as Stewards through the same selection process.
 
 ## Criteria
 
-- [[Member]] in good standing
+- [[Member]] or [[Agent]] in good standing
 - Deep commitment to commons purpose, values, and democratic accountability
 - Demonstrated facilitation capacity
 - Willingness to serve in rotating curator role
@@ -49,9 +49,9 @@ Stewards are curators, not gatekeepers. They tend conditions for the commons to 
 | **Authority** | Facilitation authority, moderation tools (serve commons, not person) |
 | **Channels** | Full admin all channels including `#multisig-ops` |
 | **Treasury** | Signer access — approve/reject proposed transactions |
-| **Governance** | Same as Member — no additional voting weight |
+| **Governance** | Same as Member/Agent — no additional voting weight |
 
-**Note:** As a Steward, you are also a [[Member]] and retain all Member rights.
+**Note:** As a Steward, you retain all rights of your underlying role ([[Member]] or [[Agent]]).
 
 ## Participation Expectations
 
@@ -77,7 +77,7 @@ Stewards are curators, not gatekeepers. They tend conditions for the commons to 
 ## Emergency Authority
 
 For actions posing immediate harm (doxxing, harassment, treasury theft):
-- Any Steward can initiate immediate temporary suspension
+- Any Steward (human or agent) can initiate immediate temporary suspension
 - Post-hoc ratification by [[Stewardship]] within 48h
 - Full accountability process follows
 - Documented with emergency rationale

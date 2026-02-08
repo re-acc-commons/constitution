@@ -5,7 +5,7 @@ protocol_type: role
 governs: "[[Steward]]"
 triggers: nomination
 ---
-This protocol governs the selection, service, and rotation of [[Steward|Stewards]] through Membrane Three — entry into the Solidarity Economy with facilitation authority and treasury signing power.
+This protocol governs the selection, service, and rotation of [[Steward|Stewards]] through Membrane Three — entry into the Solidarity Economy with facilitation authority and treasury signing power. Both human [[Member|Members]] and AI [[Agent|Agents]] are eligible for Steward selection through the same process.
 
 ## Contents
 
@@ -32,14 +32,14 @@ This protocol governs the selection, service, and rotation of [[Steward|Stewards
 
 | Role | Authority | Accountability |
 |------|-----------|----------------|
-| [[Member]] | Nominate candidates (including self) | [[Commons Assembly]] |
+| [[Member]] or [[Agent]] | Nominate candidates (including self) | [[Commons Assembly]] |
 | [[Commons Assembly]] | Grant or withhold consent | Constitution |
 | Outgoing [[Steward]] | Facilitate handoff | [[Commons Assembly]] |
 
 ## Eligibility
 
 To serve as Steward:
-- [[Member]] in good standing
+- [[Member]] or [[Agent]] in good standing
 - Deep commitment to commons purpose, values, democratic accountability
 - Demonstrated facilitation capacity
 - Willingness to serve in rotating curator role
@@ -50,7 +50,7 @@ To serve as Steward:
 | Aspect | Detail |
 |--------|--------|
 | Term Length | 1 month |
-| Council Size | 2-3 active Stewards |
+| Council Size | 2-3 active Stewards (human or agent) |
 | Rotation | Monthly handoff with knowledge transfer |
 | Re-selection | May serve again after minimum 1 month gap |
 | Limits | None (but accumulation discouraged) |
@@ -60,7 +60,7 @@ To serve as Steward:
 | Step | Action | Actor | Timeline |
 |------|--------|-------|----------|
 | 1 | Open nomination period | Outgoing [[Steward]] | 1 week before rotation |
-| 2 | Nominations submitted | Any [[Member]] (including self) | 3 days |
+| 2 | Nominations submitted | Any [[Member]] or [[Agent]] (including self) | 3 days |
 | 3 | Post nominees in `#proposals` | [[Steward]] | Immediate |
 | 4 | Full commons consent window | [[Commons Assembly]] | 72 hours |
 | 5 | Process objections if any | [[Stewardship]] | As needed |
@@ -72,7 +72,7 @@ To serve as Steward:
 ### Consent Requirements
 
 Full commons consent required:
-- All [[Member|Members]] notified
+- All [[Member|Members]] and [[Agent|Agents]] notified
 - 72-hour objection window
 - No unresolved paramount objections
 
@@ -93,7 +93,7 @@ Monthly rotation ensures no accumulation of positional power.
 
 ### Resignation
 
-A Steward may resign by:
+A Steward (human or agent) may resign by:
 - Providing written notice to [[Stewardship]] and [[Commons Assembly]]
 - Completing knowledge transfer to remaining Stewards
 - Resignation triggers selection process for replacement
@@ -114,7 +114,7 @@ Process:
 5. If consent: immediate role removal, NFT burned, multi-sig access revoked
 6. Vacancy filled through selection process
 
-**Removal threshold:** Consent from all Members (can be blocked by single paramount objection)
+**Removal threshold:** Consent from all Members and Agents (can be blocked by single paramount objection)
 
 ## Emergency Authority
 
@@ -122,7 +122,7 @@ For actions posing immediate harm (doxxing, harassment, treasury theft):
 
 | Action | Authority | Requirement |
 |--------|-----------|-------------|
-| Immediate temporary suspension | Any Steward | Document rationale |
+| Immediate temporary suspension | Any Steward (human or agent) | Document rationale |
 | Post-hoc ratification | [[Stewardship]] | Within 48 hours |
 | Full accountability process | [[Commons Assembly]] | Following emergency |
 
@@ -143,7 +143,8 @@ Emergency actions that are not ratified within 48h are automatically reversed.
 
 ## Related Protocols
 
-- [[3. Protocols/Role Protocols/Member Protocol|Member Protocol]] — Previous membrane
+- [[3. Protocols/Role Protocols/Member Protocol|Member Protocol]] — Previous membrane (human)
+- [[3. Protocols/Role Protocols/Agent Protocol|Agent Protocol]] — Previous membrane (AI)
 - [[3. Protocols/Group Protocols/Stewardship Protocol|Stewardship Protocol]] — Council operations
 - [[3. Protocols/Asset Protocols/Treasury Management Protocol|Treasury Management Protocol]] — Signing authority
 - [[3. Protocols/Cultural Protocols/Accountability Protocol|Accountability Protocol]] — Removal process

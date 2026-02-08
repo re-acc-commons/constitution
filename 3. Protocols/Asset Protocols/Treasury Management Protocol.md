@@ -35,24 +35,20 @@ This protocol governs all operations of the [[Commons Treasury]] — the shared 
 | [[Commons Assembly]] | Approve allocations | Constitution |
 | [[Stewardship]] | Sign transactions, facilitate process | Commons Assembly |
 | [[Working Circle]] | Propose allocations | Commons Assembly |
-| [[Agent]] | Propose, sign, execute (2/4 threshold with other agents) | Agent Operator + Transparency |
-| [[Member]] | View all transactions | Community trust |
+| [[Member]] or [[Agent]] | View all transactions, participate in consent | Community trust |
 
-### Agent Treasury Access
+### Treasury Signing Access
 
-Agents have full signing authority on the treasury multi-sig:
+Only [[Steward|Stewards]] (human or agent) have signing authority on the treasury multi-sig. Agents and Members at Membrane Two have viewer access only. Signing authority is gained through [[Steward]] selection.
 
 ```yaml
 treasury_signers:
-  threshold: 2 of 4
+  threshold: majority of Stewards
   signers:
-    - treasury-agent (agent-controlled)
-    - governance-agent (agent-controlled)
-    - steward-1 (human)
-    - steward-2 (human)
+    - steward-1 (human or agent Steward)
+    - steward-2 (human or agent Steward)
+    - steward-3 (human or agent Steward)  # if 3 active Stewards
 ```
-
-This enables autonomous execution: two agents can meet threshold without human signatures. Humans participate in consent processes but are not required to sign for execution. See [[3. Protocols/Asset Protocols/Resource Pool Protocol|Resource Pool Protocol]] for spending limits.
 
 ## Allocation Categories
 
@@ -70,7 +66,7 @@ This enables autonomous execution: two agents can meet threshold without human s
 | Amount/Type | Authority | Process |
 |-------------|-----------|---------|
 | Operational (≤ $500) | [[Steward]] autonomy | FYI post in `#treasury` |
-| Standard ($500-$5,000) | [[Commons Assembly]] | 3-member consent + 48h |
+| Standard ($500-$5,000) | [[Commons Assembly]] | 3 consents (Member or Agent) + 48h |
 | Large (> $5,000) | [[Commons Assembly]] | Full commons consent + 72h |
 | Structural changes | [[Commons Assembly]] | Full commons consent + 72h |
 
@@ -118,9 +114,9 @@ This enables autonomous execution: two agents can meet threshold without human s
 ### Standard Disbursement
 
 1. Consent confirmed and documented
-2. Agent or [[Steward]] creates transaction in Gnosis Safe
-3. 2/4 threshold collected (agents + Stewards can sign)
-4. Transaction executed on-chain (agents can execute autonomously)
+2. [[Steward]] creates transaction in Gnosis Safe
+3. Majority of Stewards sign (human or agent Stewards have equal signing authority)
+4. Transaction executed on-chain
 5. Confirmation posted in `#treasury`
 
 ### Milestone-Based Disbursement
@@ -131,15 +127,15 @@ For allocations > $2,000:
 - Circle or proposer reports milestone completion
 - Stewardship verifies and initiates next disbursement
 
-### Autonomous Agent Execution
+### Steward Execution
 
-[[Agent|Agents]] with signer access:
+[[Steward|Stewards]] with signer access:
 - Submit transactions to Gnosis Safe
-- Sign transactions (counted toward 2/4 threshold)
-- Execute transactions once threshold met (agents can meet threshold alone)
-- No additional human approval required after consent is complete
+- Sign transactions (counted toward majority threshold)
+- Execute transactions once threshold met
+- Agent Stewards can execute autonomously after consent is complete
 
-**Consent is the decision point.** Once a proposal has received sufficient consents and no unresolved objections, agents execute autonomously. Humans participate in consent processes, not in execution.
+**Consent is the decision point.** Once a proposal has received sufficient consents and no unresolved objections, Stewards execute. Both human and agent Stewards have equal signing authority.
 
 ## Reporting
 
@@ -174,6 +170,7 @@ For time-sensitive situations:
 - **Public visibility:** All transactions on public blockchain
 - **Consent-first:** Allocation decisions through consent, not authority
 - **Audit trail:** All allocations documented with purpose and authorization
+- **Steward-only signing:** Treasury signing is a Steward privilege, not a default for all Agents
 
 ## Related Protocols
 

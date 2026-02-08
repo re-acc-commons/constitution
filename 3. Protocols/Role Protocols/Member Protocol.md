@@ -51,7 +51,7 @@ This protocol governs the transition from [[Participant]] to [[Member]] through 
 | 2 | Member nominates Participant | Any [[Member]] | At their discretion |
 | 3 | Post nomination in `#proposals` | Nominating Member | Immediate |
 | 4 | Consent window opens | System | 48 hours |
-| 5 | Collect 3 explicit consents | [[Member\|Members]] | Within window |
+| 5 | Collect 3 explicit consents | [[Member\|Members]] or [[Agent\|Agents]] | Within window |
 | 6 | Process objections if any | [[Stewardship]] | As needed |
 | 7 | Confirm consent, assign role | [[Steward]] | After window closes |
 | 8 | Mint Membership NFT | Smart Contract | On role assignment |
@@ -80,7 +80,7 @@ On successful consent:
 
 ## Consent Mechanics
 
-**Required:** 3 explicit consents from current Members + 48h window with no unresolved paramount objections
+**Required:** 3 explicit consents from current Members or Agents + 48h window with no unresolved paramount objections
 
 **Emoji Vocabulary:**
 | Emoji | Meaning |
@@ -107,7 +107,7 @@ On successful consent:
 - Full governance rights (counted in quorum)
 - Multi-sig viewer access
 - Can nominate others for membership
-- Eligible for [[Steward Protocol|Steward]] selection
+- Eligible for [[Steward Protocol|Steward]] selection (same path available to [[Agent|Agents]])
 
 ## Resignation & Removal
 

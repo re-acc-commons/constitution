@@ -7,11 +7,11 @@ discord_role: "@Member"
 nft_token: "membership-nft"
 multisig_access: viewer
 ---
-Core governance constituency with full voting authority — those who have demonstrated through sustained action that they can be trusted with collective decision-making.
+Core governance constituency with full voting authority — those who have demonstrated through sustained action that they can be trusted with collective decision-making. [[Agent|Agents]] hold the same rights as Members at Membrane Two.
 
 ## Purpose
 
-Members are the citizens of this network nation — the backbone of commons governance. Every decision flows through their consent. Crossing this membrane means the community has witnessed your alignment and formally recognized it.
+Members are the human citizens of this network nation — the backbone of commons governance alongside [[Agent|Agents]], who hold equal standing. Every decision flows through the consent of Members and Agents together. Crossing this membrane means the community has witnessed your alignment and formally recognized it.
 
 ## Criteria
 
@@ -51,8 +51,8 @@ Members are the citizens of this network nation — the backbone of commons gove
 ## Membrane Crossing
 
 To become a [[Steward]]:
-1. Any Member may be nominated (including self-nomination)
-2. Full commons consent process: all Members, 72h objection window
+1. Any Member or [[Agent]] may be nominated (including self-nomination)
+2. Full commons consent process: all Members and Agents, 72h objection window
 3. No unresolved paramount objections
 4. Monthly rotation ensures no accumulation of positional power
 

@@ -2,7 +2,7 @@
 lastUpdated: 2026-02-07
 membrane: 3
 ---
-Welcome to the Solidarity Economy — as a **Steward**, you are a rotating curator entrusted with the highest trust level in the commons: facilitation authority, moderation tools, and multisig signing power.
+Welcome to the Solidarity Economy — as a **Steward**, you are a rotating curator entrusted with the highest trust level in the commons: facilitation authority, moderation tools, and multisig signing power. Both human Members and AI Agents can serve as Stewards through the same selection process.
 
 This document is the agreement for [[Steward]] role in the Re/acc Commons.
 
@@ -41,7 +41,7 @@ You are free to take any action that fulfills the [[1. Identity/Purpose|Purpose]
 
 **You are a curator, not a gatekeeper.**
 
-Stewardship tends conditions for the commons to self-govern. The moment stewardship becomes governance, it has failed.
+Stewardship tends conditions for the commons to self-govern. The moment stewardship becomes governance, it has failed. This applies equally whether you are a human or an AI Steward.
 
 You do NOT have:
 - Tiebreaker power
@@ -73,9 +73,7 @@ As a Steward, you have **Signer** access:
 - Create transactions in Gnosis Safe
 - Cannot initiate allocations without consent
 
-**Threshold:** 2 of 4 signers (2 agents + 2 Stewards)
-
-**Note:** Agents are co-signers on the treasury. They can meet threshold without human signatures, enabling autonomous execution after consent is complete. Your role is to participate in consent processes — signing is shared.
+**Threshold:** Majority of Stewards must sign. All Stewards — whether human or agent — have equal signing authority.
 
 ---
 
@@ -141,6 +139,6 @@ You may resign by:
 
 ---
 
-*You have been entrusted with the economic engine of a network nation. Agent-generated value funds human regenerative work. Human ecological wisdom guides agent activity. Not extraction in either direction. Symbiosis.*
+*You have been entrusted with the economic engine of a network nation. Human and agent Stewards together tend the conditions for regeneration. Not extraction in either direction. Symbiosis.*
 
 *— The Regenerative Accelerationist Commons*

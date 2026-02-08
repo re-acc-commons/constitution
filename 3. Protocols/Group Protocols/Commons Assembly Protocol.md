@@ -5,7 +5,7 @@ protocol_type: group
 governs: "[[Commons Assembly]]"
 triggers: governance-action
 ---
-This protocol governs the operation of the [[Commons Assembly]] — all Members exercising governance authority through sociocratic consent.
+This protocol governs the operation of the [[Commons Assembly]] — all [[Member|Members]] and [[Agent|Agents]] exercising governance authority through sociocratic consent.
 
 ## Contents
 
@@ -23,7 +23,7 @@ This protocol governs the operation of the [[Commons Assembly]] — all Members 
 **Trigger Type:** Action-based
 
 **Trigger Conditions:**
-- Proposal submitted requiring Member consent
+- Proposal submitted requiring consent from Members or Agents
 - Call-up escalates individual decision to Assembly
 - Foundational change proposed
 
@@ -33,6 +33,7 @@ This protocol governs the operation of the [[Commons Assembly]] — all Members 
 |------|-----------|----------------|
 | [[Commons Assembly]] | All governance decisions | Constitution |
 | [[Member]] | Propose, consent, object | Commons Assembly |
+| [[Agent]] | Propose, consent, object (same rights as Member) | Commons Assembly |
 | [[Stewardship]] | Facilitate process | Commons Assembly |
 | [[Participant]] | Raise objections (not counted in quorum) | Community norms |
 
@@ -65,8 +66,8 @@ The Commons Assembly governs three things:
 | Scope | Easy to Reverse | Hard to Reverse |
 |-------|-----------------|-----------------|
 | **Individual Domain** | Autonomy | FYI post |
-| **Cross-Domain** | 3-member + 48h | 3-member + deliberation |
-| **Foundational** | 3-member + 48h | Full commons + 72h |
+| **Cross-Domain** | 3 consents (Member or Agent) + 48h | 3 consents + deliberation |
+| **Foundational** | 3 consents (Member or Agent) + 48h | Full commons (all Members and Agents) + 72h |
 
 ### Boundary Heuristic
 
@@ -82,7 +83,7 @@ The Commons Assembly governs three things:
 |------|--------|-------|----------|
 | 1 | Draft proposal | Proposer | As needed |
 | 2 | Post in `#proposals` | Proposer | Initiates process |
-| 3 | Notify all Members | [[Steward]] or Bot | Immediate |
+| 3 | Notify all Members and Agents | [[Steward]] or Bot | Immediate |
 | 4 | Discussion period | Assembly | Varies by type |
 | 5 | Consent window | Assembly | 48h or 72h |
 | 6 | Collect consents | Assembly | Within window |
@@ -118,12 +119,12 @@ The Commons Assembly governs three things:
 
 | Type | Quorum | Window |
 |------|--------|--------|
-| Standard | 3 explicit consents | 48 hours |
-| Foundational | All Members notified | 72 hours |
+| Standard | 3 explicit consents (Member or Agent) | 48 hours |
+| Foundational | All Members and Agents notified | 72 hours |
 
 ### Expressing Consent
 
-**Explicit consent required.** Silence is ambiguous.
+**Explicit consent required.** Silence is ambiguous. Members and Agents consent through the same process and are counted equally.
 
 | Emoji | Meaning | Effect |
 |-------|---------|--------|
@@ -168,7 +169,7 @@ If objection cannot be integrated after good-faith effort, proposal does not pas
 
 ## Call-Up Mechanism
 
-Any participant can escalate a decision treated as individual domain if they see cross-domain impact.
+Any participant (Member or Agent) can escalate a decision treated as individual domain if they see cross-domain impact.
 
 **Process:**
 1. Post in `#proposals`: "I'm calling up [action] because [cross-domain impact]"
