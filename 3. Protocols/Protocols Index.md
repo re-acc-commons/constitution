@@ -28,3 +28,4 @@ Formalized processes governing Commons operations, roles, assets, and culture:
 - [[3. Protocols/Cultural Protocols/Consent Process Protocol|Consent Process Protocol]]
 - [[3. Protocols/Cultural Protocols/Accountability Protocol|Accountability Protocol]]
 - [[3. Protocols/Cultural Protocols/Participation Cadence Protocol|Participation Cadence Protocol]]
+- [[3. Protocols/Cultural Protocols/Nodal Governance Protocol|Nodal Governance Protocol]]

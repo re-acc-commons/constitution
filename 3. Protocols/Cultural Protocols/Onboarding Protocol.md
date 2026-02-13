@@ -102,6 +102,24 @@ This protocol governs how newcomers are welcomed and supported through their ini
 - Remain available for questions
 - No gatekeeping or judgment
 
+## Essence Discovery
+
+Onboarding is not just orientation — it is the beginning of a developmental journey. The onboarding process should help newcomers discover their own essence within the commons:
+
+### Essence Questions for Newcomers
+
+At any point during onboarding, mentors or agents may invite newcomers to reflect on:
+
+- **What draws you here that is not served elsewhere?** — This surfaces alignment with the commons' essence, not just agreement with its principles.
+- **What do you see that others might not?** — This invites the newcomer to contribute their unique perspective from the start.
+- **What is the contribution only you can make?** — This channels energy toward the places where it generates the most vitality.
+
+### How Essence Discovery Works
+
+Essence discovery is not gatekeeping — it is development. It helps participants discover what is uniquely theirs to contribute, which strengthens both the participant and the commons. Responses are not evaluated for correctness. They are invitations to begin the practice of contributing from essence rather than obligation.
+
+Agents may surface patterns that help newcomers see connections between their interests and existing working circles, knowledge gaps, or federation opportunities — illuminating potential pathways for contribution that the newcomer might not yet see.
+
 ## Completion
 
 **Membrane Zero complete when:**

@@ -54,6 +54,17 @@ Each federation agreement documents:
 | Regen Hub | Trust Bridge | Sister project — shared principles, distinct governance |
 | *[Future]* | *[Type]* | *[Status]* |
 
+## Essence Discovery in Federation
+
+Before entering federation, each network must articulate its essence — the unique, irreducible contribution it makes to the regenerative web. This is not a mission statement or an elevator pitch. Essence is what remains when all the surface descriptions are stripped away.
+
+### Essence Questions for Prospective Federates
+- What can this network do that no other network in the web can do?
+- What would be lost from the web if this network ceased to exist?
+- What specific gift does this network bring that complements (not duplicates) existing nodes?
+
+Federation agreements should document the essence of each party — not just their structure, scope, and protocols. This ensures that the web differentiates rather than consolidates, and that each new federation strengthens the whole through complementarity rather than redundancy.
+
 ## Agent Federation
 
 AI agents in federated networks can coordinate through:

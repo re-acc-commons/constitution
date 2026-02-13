@@ -29,6 +29,22 @@ We coordinate through alignment beyond agreement. Consent means no one with rele
 
 We are collapse-aware. The crisis is real. We build anyway. Not from naive optimism but from the recognition that surrender and complicity are the only unacceptable positions. We plant seeds in soil we know may burn because the alternative is guaranteed desolation.
 
+## Reciprocity as Field Generation
+
+Reciprocity in this commons is not transactional exchange. It is the cultivation of conditions where giving strengthens the giver and the receiver simultaneously — where each act of contribution generates a field of energy that makes the next contribution more likely and more valuable.
+
+This is distinct from:
+- **Transaction:** I give X, you give Y (balanced ledger)
+- **Altruism:** I give without expectation (unidirectional flow)
+- **Obligation:** I give because the rules require it (compliance)
+
+Reciprocity as field generation means:
+- **Contributing from essence** — giving what is uniquely yours to give, not what is expected
+- **Receiving as contribution** — receiving someone's gift fully is itself an act that strengthens the field
+- **Compounding through practice** — each cycle of reciprocity makes the commons more vital, more viable, more capable of evolution
+
+Design implications: Treasury allocation should prioritize initiatives that generate reciprocal energy, not just deliver outputs. Onboarding should help newcomers discover what they uniquely bring. Agent design should enable agents to recognize and amplify patterns of reciprocity. Working circles should be composed for complementarity of essence, not just coverage of tasks.
+
 ---
 
 **Participation Ethics**
